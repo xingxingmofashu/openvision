@@ -1,0 +1,16 @@
+{
+  "name": "@openvision/extension",
+  "type": "module",
+  "private": true,
+  "packageManager": "bun@1.3.9",
+  "scripts": {
+    "dev":"bun run index.html"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.9",
+    "chrome-types": "^0.1.418"
+  },
+  "peerDependencies": {
+    "typescript": "5.9.3"
+  }
+}
