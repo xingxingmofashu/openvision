@@ -4,7 +4,7 @@ const outdir = "./dist"
 
 await remove(outdir)
 await Bun.build({
-  entrypoints: ["./src/main.ts"],
+  entrypoints: ["./src/index.ts"],
   outdir,
 })
 

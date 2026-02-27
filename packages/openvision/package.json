@@ -1,0 +1,17 @@
+{
+  "name": "openvision",
+  "type": "module",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "module": "src/index.ts",
+  "scripts": {
+    "dev":"bun run ./src/index.ts"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.32"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:"
+  }
+}
