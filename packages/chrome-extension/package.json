@@ -1,5 +1,6 @@
 {
-  "name": "@openvision/extension",
+  "name": "@openvision/chrome-extension",
+  "description": "",
   "type": "module",
   "version": "0.1.0",
   "license":"MIT",

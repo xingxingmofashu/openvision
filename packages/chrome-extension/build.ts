@@ -1,4 +1,5 @@
 import { copy, remove } from 'fs-extra'
+import { version, name, description } from './package.json'
 
 const outdir = "./dist"
 
@@ -31,9 +32,9 @@ async function generateManifestConfig(config: ManifestConfig) {
 }
 
 await generateManifestConfig({
-  "name": "OpenVision",
-  "description": "Base Level Extension",
-  "version": "0.1",
+  name,
+  description,
+  version,
   "manifest_version": 3,
   "icons": {
     "128": "/images/openvision.png",
