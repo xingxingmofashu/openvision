@@ -6,7 +6,7 @@
   "private": true,
   "module": "src/index.ts",
   "scripts": {
-    "dev": "bun run --conditions=browser index.html"
+    "dev": "bun run src/index.ts"
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.32"
